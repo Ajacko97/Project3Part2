@@ -6,7 +6,7 @@
 html {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
-    background: #E3BC43;
+    background: #e7e7e7;
 }
 body {
     margin: 0;
@@ -19,14 +19,14 @@ img {
     max-width: 100%;
 }
 nav {
-    background-color: #E3BC43;
+    background-color: #e7e7e7;
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 'img ul';
 }
 nav ul {
     grid-area: ul;
-    margin-right: 9%;
+    margin-right: 2%;
     display: grid;
     justify-content: end;
     grid-gap: 10px;
@@ -37,71 +37,56 @@ nav ul {
 nav img {
     display: grid;
     grid-area: img;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 30%;
+    margin-left: 2%;
+    margin-top: 3.5%;
+    margin-bottom: 1%;
+    width: 20%;
 }
 nav li {
     margin-top: auto;
     margin-bottom: auto;
 }
 nav a.button1 {
-    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    color: white;
+    color: #213159;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button1:hover {
     font-weight: 600;
-    background: #3a3a3c;
     color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button2 {
-    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    color: white;
+    color: #213159;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button2:hover {
     font-weight: 600;
-    background: #3a3a3c;
     color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button3 {
-    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    color: white;
+    color: #213159;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button3:hover {
     font-weight: 600;
-    background: #3a3a3c;
     color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button4 {
     background: #870808;
@@ -198,8 +183,8 @@ main1 section2 header ul {
 }
 main1 section2 header a.button1 {
     margin: auto auto auto 20px;
-    color: white;
-    background-color: #3354C2;
+    color: #213159;
+    background-color: #e7e7e7;
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -211,8 +196,8 @@ main1 section2 header a.button1 {
 }
 main1 section2 header a.button1:hover {
     font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
+    background: #213159;
+    color: #e7e7e7;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main1 section3 {
@@ -259,8 +244,8 @@ main1 section3 header ul {
 }
 main1 section3 header a.button1 {
     margin: auto 20px auto auto;
-    color: #3a3a3c;
-    background-color: white;
+    color: #213159;
+    background-color: #e7e7e7;
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -272,8 +257,8 @@ main1 section3 header a.button1 {
 }
 main1 section3 header a.button1:hover {
     font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
+    background: #213159;
+    color: #e7e7e7;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main1 section4 {
@@ -322,8 +307,8 @@ main1 section4 header ul {
 }
 main1 section4 header a.button1 {
     margin: auto auto auto 20px;
-    color: white;
-    background-color: #E3BC43;
+    color: #213159;
+    background-color: #e7e7e7;
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -335,8 +320,8 @@ main1 section4 header a.button1 {
 }
 main1 section4 header a.button1:hover {
     font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
+    background: #213159;
+    color: #e7e7e7;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main2 {
@@ -604,14 +589,14 @@ main4 section3 header img {
 	height: 50px;
 }
 footer {
-    background-color: #E3BC43;
+    background-color: #213159;
     display: grid;
     grid-gap: 10px;
     padding: 10px 10px 10px 10px;
     height: 20%;
     grid-template-areas: 'fb twt ins p1 p2 p3';
     grid-template-columns: repeat(3, 150px);
-    color: #3a3a3c;
+    color: #e7e7e7;
     font-weight: 600;
 }
 footer p1 {
@@ -643,7 +628,7 @@ footer p3 {
 }
 footer a {
     text-decoration: none;
-    color: #3a3a3c;
+    color: #e7e7e7;
 }
 .fa {
     display: grid;
