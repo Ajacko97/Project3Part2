@@ -32,13 +32,13 @@ nav ul {
     grid-gap: 10px;
     padding: 0;
     list-style: none;
-    grid-template-columns: repeat(4, 150px);
+    grid-template-columns: repeat(5, 150px);
 }
 nav img {
     display: grid;
     grid-area: img;
     margin-left: 2%;
-    margin-top: 4%;
+    margin-top: 5%;
     margin-bottom: 2%;
     width: 20%;
 }
@@ -99,6 +99,20 @@ nav a.button4 {
     font-weight: 600;
 }
 nav a.button4:hover {
+    font-weight: 600;
+    color: #000;
+}
+nav a.button5 {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+nav a.button5:hover {
     font-weight: 600;
     color: #000;
 }
@@ -784,8 +798,8 @@ nav ul {
 nav img {
     display: block;
     text-align: left;
-    margin-top: 30%;
-    width: 80%;
+    margin-top: 80%;
+    width: 90%;
 }
 main1 section1, main1 section1 img, main1 section1 header, main1 section1 header h1, main1 section2, main1 section2 img, main1 section2 header, main1 section2 header h1, main1 section3, main1 section3 img, main1 section3 header, main1 section3 header h1, main1 section4, main1 section4 img, main1 section4 header, main1 section4 header h1 {
     font-size: 5vh;
