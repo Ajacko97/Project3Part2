@@ -6,7 +6,7 @@
 html {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
-    background: #e7e7e7;
+    background: #E3BC43;
 }
 body {
     margin: 0;
@@ -19,7 +19,7 @@ img {
     max-width: 100%;
 }
 nav {
-    background-color: #e7e7e7;
+    background-color: #E3BC43;
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 'img ul';
@@ -32,14 +32,14 @@ nav ul {
     grid-gap: 10px;
     padding: 0;
     list-style: none;
-    grid-template-columns: repeat(3, 150px);
+    grid-template-columns: repeat(4, 150px);
 }
 nav img {
     display: grid;
     grid-area: img;
     margin-left: 2%;
-    margin-top: 3.5%;
-    margin-bottom: 1%;
+    margin-top: 3%;
+    margin-bottom: 2%;
     width: 20%;
 }
 nav li {
@@ -47,46 +47,61 @@ nav li {
     margin-bottom: auto;
 }
 nav a.button1 {
+    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    color: #213159;
+    color: white;
     text-transform: uppercase;
     font-size: 14px;
+    border-radius: 10px;
     font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button1:hover {
     font-weight: 600;
+    background: #3a3a3c;
     color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button2 {
+    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    color: #213159;
+    color: white;
     text-transform: uppercase;
     font-size: 14px;
+    border-radius: 10px;
     font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button2:hover {
     font-weight: 600;
+    background: #3a3a3c;
     color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button3 {
+    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    color: #213159;
+    color: white;
     text-transform: uppercase;
     font-size: 14px;
+    border-radius: 10px;
     font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button3:hover {
     font-weight: 600;
+    background: #3a3a3c;
     color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button4 {
     background: #870808;
@@ -183,8 +198,8 @@ main1 section2 header ul {
 }
 main1 section2 header a.button1 {
     margin: auto auto auto 20px;
-    color: #213159;
-    background-color: #e7e7e7;
+    color: white;
+    background-color: #3354C2;
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -196,8 +211,8 @@ main1 section2 header a.button1 {
 }
 main1 section2 header a.button1:hover {
     font-weight: 600;
-    background: #213159;
-    color: #e7e7e7;
+    background: #3a3a3c;
+    color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main1 section3 {
@@ -244,8 +259,8 @@ main1 section3 header ul {
 }
 main1 section3 header a.button1 {
     margin: auto 20px auto auto;
-    color: #213159;
-    background-color: #e7e7e7;
+    color: #3a3a3c;
+    background-color: white;
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -257,8 +272,8 @@ main1 section3 header a.button1 {
 }
 main1 section3 header a.button1:hover {
     font-weight: 600;
-    background: #213159;
-    color: #e7e7e7;
+    background: #3a3a3c;
+    color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main1 section4 {
@@ -307,8 +322,8 @@ main1 section4 header ul {
 }
 main1 section4 header a.button1 {
     margin: auto auto auto 20px;
-    color: #213159;
-    background-color: #e7e7e7;
+    color: white;
+    background-color: #E3BC43;
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -320,8 +335,8 @@ main1 section4 header a.button1 {
 }
 main1 section4 header a.button1:hover {
     font-weight: 600;
-    background: #213159;
-    color: #e7e7e7;
+    background: #3a3a3c;
+    color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main2 {
@@ -376,6 +391,33 @@ main2 section6 {
 }
 main2 img {
     width: 15%;
+}
+main2 section0 {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+main2 section0 img {
+    max-height: 100%;
+    max-height: 100%;
+    display: block;
+}
+main2 section0 header {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    top: 20%;
+    left: 55%;
+    color: #000;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+main2 section0 header h1 {
+	font-size: 3.5em;
+    font-weight: bolder;
+    margin: 0;
+	text-align: justify;
 }
 main3 section1 {
     display: block;
@@ -588,15 +630,83 @@ main4 section3 header img {
 	width: 50px;
 	height: 50px;
 }
+main5 section1 {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+main5 section1 img {
+    max-height: 100%;
+    max-height: 100%;
+    display: block;
+}
+main5 section1 header {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    top: 20%;
+    left: 55%;
+    color: #000;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+main5 section1 header h1 {
+	font-size: 3.5em;
+    font-weight: bolder;
+    margin: 0;
+	text-align: justify;
+}
+main5 section2 {
+	color: white;
+    display: grid;
+    column-gap: 10px;
+    border-color: rgba(0,0,0,1.00);
+    margin: 10px 10px 10px 10px;
+	grid-template-areas: 'he1 he2';
+}
+main5 section2 header1 {
+    display: grid;
+	justify-content: flex-start;
+	align-content: flex-start;
+	grid-area: he1;
+    grid-gap: 10px;
+    padding: 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #3354C2;
+}
+main5 section2 header2 {
+    display: grid;
+	justify-content: flex-start;
+	align-content: flex-start;
+	grid-area: he2;
+    grid-gap: 10px;
+    padding: 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #3354C2;
+}
+main5 section2 img {
+	display: grid;
+	width: 50px;
+	height: 50px;
+}
+main5 section2 h1 {
+	font-size: 2em;
+	color: #E3BC43;
+}
+main5 section2 p {
+	text-align: justify;
+	font-size: 1.2em;
+}
 footer {
-    background-color: #213159;
+    background-color: #E3BC43;
     display: grid;
     grid-gap: 10px;
     padding: 10px 10px 10px 10px;
     height: 20%;
     grid-template-areas: 'fb twt ins p1 p2 p3';
     grid-template-columns: repeat(3, 150px);
-    color: #e7e7e7;
+    color: #3a3a3c;
     font-weight: 600;
 }
 footer p1 {
@@ -628,7 +738,7 @@ footer p3 {
 }
 footer a {
     text-decoration: none;
-    color: #e7e7e7;
+    color: #3a3a3c;
 }
 .fa {
     display: grid;
