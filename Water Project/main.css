@@ -38,7 +38,7 @@ nav img {
     display: grid;
     grid-area: img;
     margin-left: 2%;
-    margin-top: 3%;
+    margin-top: 4%;
     margin-bottom: 2%;
     width: 20%;
 }
@@ -47,80 +47,60 @@ nav li {
     margin-bottom: auto;
 }
 nav a.button1 {
-    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button1:hover {
     font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000;
 }
 nav a.button2 {
-    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button2:hover {
     font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000;
 }
 nav a.button3 {
-    background: #3354C2;
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a.button3:hover {
     font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000;
 }
 nav a.button4 {
-    background: #870808;
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 600;
 }
 nav a.button4:hover {
-    background: #fff;
-    color: #870808;
-    font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 600;
+    color: #000;
 }
 main1 section1 {
     display: block;
@@ -640,7 +620,7 @@ main5 section1 img {
     max-height: 100%;
     display: block;
 }
-main5 section1 header {
+main5 section1 header1 {
     position: absolute;
     width: 100%;
     padding: 0;
@@ -651,7 +631,24 @@ main5 section1 header {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-main5 section1 header h1 {
+main5 section1 header1 h1 {
+	font-size: 3.5em;
+    font-weight: bolder;
+    margin: 0;
+	text-align: justify;
+}
+main5 section1 header2 {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    top: 20%;
+    left: 55%;
+    color: #000;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+main5 section1 header2 h1 {
 	font-size: 3.5em;
     font-weight: bolder;
     margin: 0;
@@ -701,38 +698,35 @@ main5 section2 p {
 footer {
     background-color: #E3BC43;
     display: grid;
-    grid-gap: 10px;
-    padding: 10px 10px 10px 10px;
+    grid-gap: 2%;
     height: 20%;
-    grid-template-areas: 'fb twt ins p1 p2 p3';
-    grid-template-columns: repeat(3, 150px);
+    grid-template-areas: 'fa sec1';
     color: #3a3a3c;
     font-weight: 600;
 }
-footer p1 {
-    display: grid;
-    grid-area: p1;
-    justify-content: flex-end;
+footer section1 {
+	display: grid;
+    grid-area: sec1;
+	margin: 1%;
+	justify-content: flex-end;
     align-content: center;
+	grid-template-columns: repeat(1, 350px);
+}
+footer p1 {
+	text-align: center;
     font-size: 1em;
     padding: 0;
     margin: 0;
 }
 footer p2 {
-    display: grid;
-    grid-area: p2;
-    justify-content: flex-end;
-    align-content: center;
+	text-align: center;
     font-size: 1em;
     padding: 0;
     margin: 0;
 }
 footer p3 {
-    display: grid;
-    grid-area: p3;
-    justify-content: flex-end;
-    align-content: center;
-    font-size: 1em;
+	text-align: center;
+    font-size: 1.1em;
     padding: 0;
     margin: 0;
 }
@@ -740,47 +734,45 @@ footer a {
     text-decoration: none;
     color: #3a3a3c;
 }
-.fa {
+
+footer ul {
+	grid-area: fa;
+    margin: 0;
     display: grid;
-    justify-content: center;
-    align-content: center;
-    text-decoration: none;
+    justify-content: start;
+    grid-gap: 2%;
+	margin: 1%;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(3, 60px);
 }
+
 .fa:hover {
     opacity: 0.7;
 }
 .fa-facebook {
-    display: grid;
-    grid-area: fb;
+    display: block;
+    padding: 10px;
     max-width: 80px;
     max-height: 80px;
     border-radius: 50%;
     text-decoration: none;
-    padding: 0;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .fa-twitter {
-    display: grid;
-    grid-area: twt;
+    display: block;
+    padding: 10px;
     max-width: 80px;
     max-height: 80px;
     border-radius: 50%;
     text-decoration: none;
-    padding: 0;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .fa-instagram {
-    display: grid;
-    grid-area: ins;
+	display: block;
+    padding: 10px;
     max-width: 80px;
     max-height: 80px;
     border-radius: 50%;
     text-decoration: none;
-    padding: 0;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Media Queries */
