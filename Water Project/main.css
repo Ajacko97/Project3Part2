@@ -6,7 +6,7 @@
 html {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
-    background: #E3BC43;
+    background: #c1d2dd;
 }
 body {
     margin: 0;
@@ -19,7 +19,7 @@ img {
     max-width: 100%;
 }
 nav {
-    background-color: #E3BC43;
+    background-color: #c1d2dd;
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 'img ul';
@@ -29,7 +29,7 @@ nav ul {
     margin-right: 2%;
     display: grid;
     justify-content: end;
-    grid-gap: 10px;
+	grid-gap: 10px;
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(5, 150px);
@@ -51,70 +51,70 @@ nav a.button1 {
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #2e3a41;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 800;
 }
 nav a.button1:hover {
-    font-weight: 600;
-    color: #000;
+    font-weight: 800;
+    color: #f0f0e0;
 }
 nav a.button2 {
     display: block;
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #2e3a41;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 800;
 }
 nav a.button2:hover {
-    font-weight: 600;
-    color: #000;
+    font-weight: 800;
+    color: #f0f0e0;
 }
 nav a.button3 {
     display: block;
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #2e3a41;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 800;
 }
 nav a.button3:hover {
-    font-weight: 600;
-    color: #000;
+    font-weight: 800;
+    color: #f0f0e0;
 }
 nav a.button4 {
     display: block;
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #2e3a41;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 800;
 }
 nav a.button4:hover {
-    font-weight: 600;
-    color: #000;
+    font-weight: 800;
+    color: #f0f0e0;
 }
 nav a.button5 {
     display: block;
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #2e3a41;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 800;
 }
 nav a.button5:hover {
-    font-weight: 600;
-    color: #000;
+    font-weight: 800;
+    color: #f0f0e0;
 }
 main1 section1 {
     display: block;
@@ -710,12 +710,12 @@ main5 section2 p {
 	font-size: 1.2em;
 }
 footer {
-    background-color: #E3BC43;
+    background-color: #2e3a41;
     display: grid;
     grid-gap: 2%;
     height: 20%;
     grid-template-areas: 'fa sec1';
-    color: #3a3a3c;
+    color: #c1d2dd;
     font-weight: 600;
 }
 footer section1 {
