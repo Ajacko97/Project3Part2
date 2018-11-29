@@ -989,30 +989,34 @@ main4 section3 header a.button1 {
 	}
 	main5 header1 h1 {
 		font-size: 5vh;
+		margin-left: 1%;
 	}
 	main5 header1 p1,main5 header1 p3,main5 header1 p5 {
 		font-size: 3vh;
+		margin-left: 1%;
 	}
 	main5 header1 p2,main5 header1 p4,main5 header1 p6 {
 		font-size: 2.5vh;
+		margin-left: 1%;
 	}
 	main5 header2 {
 		height: 100%;
 	}
 	main5 header2 h1 {
 		font-size: 5vh;
+		margin-left: 1%;
 	}
 	main5 header2 p1 {
 		font-size: 3vh;
+		margin-left: 1%;
 	}
 	main5 header2 p2,main5 header2 p6,main5 header2 p7 {
 		font-size: 2.5vh;
+		margin-left: 1%;
 	}
 	main5 header2 p3,main5 header2 p4,main5 header2 p5 {
 		font-size: 2vh;
-	}
-	main5 header1 section1 {
-		grid-template-columns: 1fr; 
+		margin-left: 1%;
 	}
 footer {
     display: block;
