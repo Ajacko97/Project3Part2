@@ -176,13 +176,13 @@ main1 section2 header h1 {
 	font-weight: bolder;
     margin: auto auto auto 20px;
     text-transform: uppercase;
-	color: #f0f0e0;
+	color: #445865;
     text-align: left;
 }
 main1 section2 header p {
     font-size: 1.5em;
 	font-weight: bold;
-	color: #f0f0e0;
+	color: #445865;
     margin: auto auto auto 20px;
     text-align: left;
 }
@@ -196,27 +196,23 @@ main1 section2 header ul {
 }
 main1 section2 header a.button1 {
     margin: auto auto auto 20px;
-    color: white;
-    background-color: #3354C2;
+    color: #f19336;
+    background-color: #445865;
     display: block;
     text-decoration: none;
     padding: 10px;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
-    font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+    font-weight: 800;
 }
 main1 section2 header a.button1:hover {
-    font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
 }
 main1 section3 {
     display: block;
     width: 100%;
-	color: #f0f0e0;
+	color: #c1d2dd;
     position: relative;
 }
 main1 section3 img {
@@ -260,22 +256,18 @@ main1 section3 header ul {
 }
 main1 section3 header a.button1 {
     margin: auto 20px auto auto;
-    color: #3a3a3c;
-    background-color: white;
+    color: #2e3a41;
+    background-color: #f0f0e0;
     display: block;
     text-decoration: none;
     padding: 10px;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
-    font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+    font-weight: 800;
 }
 main1 section3 header a.button1:hover {
-    font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
 }
 main1 section4 {
     display: block;
@@ -302,7 +294,7 @@ main1 section4 header {
 main1 section4 header h1 {
     font-size: 6em;
 	font-weight: bolder;
-	color: #f0f0e0;
+	color: #c1d2dd;
     text-transform: uppercase;
     margin: auto auto auto 20px;
     text-align: left;
@@ -310,7 +302,7 @@ main1 section4 header h1 {
 main1 section4 header p {
     font-size: 1.5em;
 	font-weight: bold;
-	color: #f0f0e0;
+	color: #c1d2dd;
     margin: auto auto auto 20px;
     text-align: left;
 }
@@ -325,22 +317,18 @@ main1 section4 header ul {
 }
 main1 section4 header a.button1 {
     margin: auto auto auto 20px;
-    color: white;
-    background-color: #E3BC43;
+    color: #c1d2dd;
+    background-color: #f19336;
     display: block;
     text-decoration: none;
     padding: 10px;
     text-transform: uppercase;
     font-size: 14px;
-    border-radius: 10px;
-    font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+    font-weight: 800;
 }
 main1 section4 header a.button1:hover {
-    font-weight: 600;
-    background: #3a3a3c;
-    color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
 }
 main2 {
     display: grid;
@@ -461,7 +449,7 @@ main3 section2 {
 main3 section2 header1 {
 	display: grid;
 	grid-area: he1;
-	margin: 10px 5px 5px 10px;
+	margin: 0 5px 5px 0;
 	padding: 10px;
 	height: 250px;
 	background-color: #445865;
@@ -472,7 +460,7 @@ main3 section2 header1 {
 main3 section2 header2 {
 	display: grid;
 	grid-area: he2;
-	margin: 10px 10px 5px 5px;
+	margin: 0 0 5px 5px;
 	padding: 10px;
 	height: 250px;
 	background-color: #445865;
@@ -483,7 +471,7 @@ main3 section2 header2 {
 main3 section2 header3 {
 	display: grid;
 	grid-area: he3;
-	margin: 5px 5px 10px 10px;
+	margin: 5px 5px 0 0;
 	padding: 10px;
 	height: 250px;
 	background-color: #445865;
@@ -494,7 +482,7 @@ main3 section2 header3 {
 main3 section2 header4 {
 	display: grid;
 	grid-area: he4;
-	margin: 5px 10px 10px 5px;
+	margin: 5px 10px 0 5px;
 	padding: 10px;
 	height: 250px;
 	background-color: #445865;
@@ -549,9 +537,7 @@ main4 section2 {
 	color: #c1d2dd;
     display: grid;
 	font-weight: 500;
-    column-gap: 10px;
     border-color: rgba(0,0,0,1.00);
-    margin: 10px 10px 10px 10px;
 	grid-template-areas: 'he1 he2';
 }
 main4 section2 header1 {
@@ -561,6 +547,7 @@ main4 section2 header1 {
 	grid-area: he1;
     grid-gap: 10px;
     padding: 30px 30px;
+	margin: 0 5px 5px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #445865;
 }
@@ -571,6 +558,7 @@ main4 section2 header2 {
 	grid-area: he2;
     grid-gap: 10px;
     padding: 30px 30px;
+	margin: 0 0 5px 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #445865;
 }
@@ -595,9 +583,8 @@ main4 section3{
     align-items: center;
     justify-content: flex-start;
     padding: 15px;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 0 0 0;
     background-color: #445865;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	grid-template-areas: 'img p';
 }
 main4 section3 header ul {
@@ -678,7 +665,7 @@ main5 section1 {
 }
 main5 header1 h1 {
 	font-size: 6em;
-	text-align: left;
+	text-align: center;
 	color: #c1d2dd;
 	padding: 0;
 }
@@ -719,7 +706,7 @@ main5 header2 p2,main5 header2 p6,main5 header2 p7 {
 }
 main5 header2 h1 {
 	font-size: 6em;
-	text-align: left;
+	text-align: center;
 	color: #f0f0e0;
 	padding: 0;
 }
@@ -755,6 +742,56 @@ main5 header2 p5 {
 	font-size: 1em;
 	font-weight: 500;
 	background: #f0f0e0;
+}
+main5 header1 section1 ul {
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 0;
+	margin-top: 30px;
+    list-style: none;
+	text-align: center;
+    grid-template-columns: 250px;
+}
+main5 header1 section1 a.button1 {
+    margin: auto auto auto 20px;
+    color: white;
+    background-color: #f19336;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 800;
+}
+main5 header1 section1 a.button1:hover {
+    opacity: 0.7;
+}
+main5 header2 section2 ul {
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 0;
+	margin-top: 30px;
+    list-style: none;
+	text-align: center;
+    grid-template-columns: 250px;
+}
+main5 header2 section2 a.button1 {
+    margin: auto auto auto 20px;
+    color: #f0f0e0;
+    background-color: #2e3a41;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 800;
+}
+main5 header2 section2 a.button1:hover {
+    opacity: 0.7;
 }
 footer {
     background-color: #2e3a41;
@@ -966,6 +1003,9 @@ main4 section3 header a.button1 {
 	}
 	main5 header2 p3,main5 header2 p4,main5 header2 p5 {
 		font-size: 2vh;
+	}
+	main5 header1 section1 {
+		grid-template-columns: 1fr; 
 	}
 footer {
     display: block;
