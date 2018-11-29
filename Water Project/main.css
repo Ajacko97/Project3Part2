@@ -91,19 +91,22 @@ nav a.button3:hover {
 nav a.button4 {
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    color: #2e3a41;
+    color: #f0f0e0;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 800;
+    background-color: #f19336;
+    display: block;
+    border-radius: 10px;
 }
 nav a.button4:hover {
     font-weight: 800;
     color: #f0f0e0;
 }
 nav a.button5 {
-    display: block;
+	display: block;
     text-decoration: none;
     padding: 20px;
     text-align: center;
@@ -443,52 +446,55 @@ main3 section2 {
 	color: #c1d2dd;
 	display: grid;
 	grid-area: he1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	grid-template-areas: 'he1 he2' 'he3 he4';
 }
 main3 section2 header1 {
 	display: grid;
 	grid-area: he1;
-	margin: 0 5px 5px 0;
+	margin: 0;
 	padding: 10px;
-	height: 250px;
+	height: 400px;
 	background-color: #445865;
-	justify-content: flex-start;
+	justify-content: center;
 	align-content: center;
 	text-align: center;
+	grid-template-columns: 500px;
 }
 main3 section2 header2 {
 	display: grid;
 	grid-area: he2;
-	margin: 0 0 5px 5px;
+	margin: 0;
 	padding: 10px;
-	height: 250px;
+	height: 400px;
 	background-color: #445865;
-	justify-content: flex-start;
+	justify-content: center;
 	align-content: center;
 	text-align: center;
+	grid-template-columns: 500px;
 }
 main3 section2 header3 {
 	display: grid;
 	grid-area: he3;
-	margin: 5px 5px 0 0;
+	margin: 0;
 	padding: 10px;
-	height: 250px;
+	height: 400px;
 	background-color: #445865;
-	justify-content: flex-start;
+	justify-content: center;
 	align-content: center;
 	text-align: center;
+	grid-template-columns: 500px;
 }
 main3 section2 header4 {
 	display: grid;
 	grid-area: he4;
-	margin: 5px 10px 0 5px;
+	margin: 0;
 	padding: 10px;
-	height: 250px;
+	height: 400px;
 	background-color: #445865;
-	justify-content: flex-start;
+	justify-content: center;
 	align-content: center;
 	text-align: center;
+	grid-template-columns: 500px;
 }
 main3 h1 {
     font-size: 6em;
@@ -547,8 +553,7 @@ main4 section2 header1 {
 	grid-area: he1;
     grid-gap: 10px;
     padding: 30px 30px;
-	margin: 0 5px 5px 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0;
     background-color: #445865;
 }
 main4 section2 header2 {
@@ -558,8 +563,7 @@ main4 section2 header2 {
 	grid-area: he2;
     grid-gap: 10px;
     padding: 30px 30px;
-	margin: 0 0 5px 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0;
     background-color: #445865;
 }
 main4 section2 img {
@@ -583,7 +587,7 @@ main4 section3{
     align-items: center;
     justify-content: flex-start;
     padding: 15px;
-    margin: 5px 0 0 0;
+    margin: 0;
     background-color: #445865;
 	grid-template-areas: 'img p';
 }
@@ -672,14 +676,14 @@ main5 header1 h1 {
 }
 main5 header1 p1,main5 header1 p3,main5 header1 p5 {
     padding: 0;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #c1d2dd;
 	font-weight: 700;
 	margin: 4% 0 4% 5%;
 }
 main5 header1 p2,main5 header1 p4,main5 header1 p6 {
 	padding: 0;
-	font-size: 1em;
+	font-size: 1.5em;
 	color: #c1d2dd;
 	font-weight: 500;
 	margin: 4% 0 4% 5%;
@@ -687,24 +691,24 @@ main5 header1 p2,main5 header1 p4,main5 header1 p6 {
 main5 header2 {
 	display: grid;
 	grid-area: hr2;
-	background-color: #f19336;
+	background-color: #c1d2dd;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 750px;
 }
 main5 section2 {
-	margin: 20px;
+	margin: 1%;
 }
 main5 header2 p1 {
 	color: #2e3a41;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 900;
 	margin: 4% 0 4% 5%;
 }
 main5 header2 p2,main5 header2 p6,main5 header2 p7 {
 	padding: 0;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #2e3a41;
 	font-weight: 700;
 	margin: 4% 0 4% 5%;
@@ -723,7 +727,7 @@ main5 header2 p3 {
 	border-radius: 10px;
 	text-decoration: none;
 	padding: 10px;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: 500;
 	background: #f0f0e0;
 	margin: 0 0 0 5%;
@@ -735,7 +739,7 @@ main5 header2 p4 {
 	border-radius: 10px;
 	text-decoration: none;
 	padding: 10px;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: 500;
 	background: #f0f0e0;
 }
@@ -746,7 +750,7 @@ main5 header2 p5 {
 	border-radius: 10px;
 	text-decoration: none;
 	padding: 10px;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: 500;
 	background: #f0f0e0;
 }
@@ -758,17 +762,17 @@ main5 header1 section1 ul {
 	margin-top: 30px;
     list-style: none;
 	text-align: center;
-    grid-template-columns: 250px;
+    grid-template-columns: 350px;
 }
 main5 header1 section1 a.button1 {
     margin: auto auto auto 20px;
     color: #2e3a41;
-    background-color: #f19336;
+    background-color: #c1d2dd;
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 50px;
     font-weight: 800;
 }
@@ -783,17 +787,17 @@ main5 header2 section2 ul {
 	margin-top: 30px;
     list-style: none;
 	text-align: center;
-    grid-template-columns: 250px;
+    grid-template-columns: 350px;
 }
 main5 header2 section2 a.button1 {
     margin: auto auto auto 20px;
-    color: #f19336;
+    color: #c1d2dd;
     background-color: #2e3a41;
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 50px;
     font-weight: 800;
 }
