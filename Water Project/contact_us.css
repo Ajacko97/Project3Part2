@@ -315,6 +315,7 @@ input[type=submit]:hover {
 }
 
 .map_header h1{
+	color: #2e3a41;
 	font-size: 3rem;
 }
 
@@ -325,6 +326,7 @@ input[type=submit]:hover {
 }
 
 .shops_list li {
+	color: #2e3a41;
 	font-size: 1.5rem;
 }
 

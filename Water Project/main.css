@@ -776,7 +776,7 @@ main5 header1 section1 ul {
     justify-content: center;
     grid-gap: 10px;
     padding: 0;
-	margin-top: 30px;
+	margin-top: 20px;
     list-style: none;
 	text-align: center;
     grid-template-columns: 350px;
@@ -801,7 +801,7 @@ main5 header2 section2 ul {
     justify-content: center;
     grid-gap: 10px;
     padding: 0;
-	margin-top: 30px;
+	margin-top: 20px;
     list-style: none;
 	text-align: center;
     grid-template-columns: 350px;
