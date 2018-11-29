@@ -667,7 +667,7 @@ main5 {
 main5 header1 {
 	display: grid;
 	grid-area: hr1;
-	background: url("Photos/rawpixel-659503-unsplash.png");
+	background-color: #2e3a41;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -679,25 +679,25 @@ main5 section1 {
 main5 header1 h1 {
 	font-size: 6em;
 	text-align: left;
-	color: #2e3a41;
+	color: #c1d2dd;
 	padding: 0;
 }
 main5 header1 p1,main5 header1 p3,main5 header1 p5 {
     padding: 0;
 	font-size: 1.5em;
-	color: #2e3a41;
+	color: #c1d2dd;
 	font-weight: 700;
 }
 main5 header1 p2,main5 header1 p4,main5 header1 p6 {
 	padding: 0;
 	font-size: 1em;
-	color: #2e3a41;
+	color: #c1d2dd;
 	font-weight: 500;
 }
 main5 header2 {
 	display: grid;
 	grid-area: hr2;
-	background: url("Photos/rawpixel-659503-unsplash.png");
+	background-color: #f19336;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -707,24 +707,24 @@ main5 section2 {
 	margin: 20px;
 }
 main5 header2 p1 {
-	color: #2e3a41;
+	color: #f0f0e0;
 	font-size: 2em;
 	font-weight: 900;
 }
 main5 header2 p2,main5 header2 p6,main5 header2 p7 {
 	padding: 0;
 	font-size: 1.5em;
-	color: #2e3a41;
+	color: #f0f0e0;
 	font-weight: 700;
 }
 main5 header2 h1 {
 	font-size: 6em;
 	text-align: left;
-	color: #2e3a41;
+	color: #f0f0e0;
 	padding: 0;
 }
 main5 header2 p3 {
-	color: #2e3a41;
+	color: #445865;
 	display: inline-block;
 	text-align: center;
 	border-radius: 10px;
@@ -732,10 +732,10 @@ main5 header2 p3 {
 	padding: 10px;
 	font-size: 1em;
 	font-weight: 500;
-	background: white;
+	background: #f0f0e0;
 }
 main5 header2 p4 {
-	color: #2e3a41;
+	color: #445865;
 	display: inline-block;
 	text-align: center;
 	border-radius: 10px;
@@ -743,10 +743,10 @@ main5 header2 p4 {
 	padding: 10px;
 	font-size: 1em;
 	font-weight: 500;
-	background: white;
+	background: #f0f0e0;
 }
 main5 header2 p5 {
-	color: #2e3a41;
+	color: #445865;
 	display: inline-block;
 	text-align: center;
 	border-radius: 10px;
@@ -754,7 +754,7 @@ main5 header2 p5 {
 	padding: 10px;
 	font-size: 1em;
 	font-weight: 500;
-	background: white;
+	background: #f0f0e0;
 }
 footer {
     background-color: #2e3a41;
